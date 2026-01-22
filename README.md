@@ -14,22 +14,6 @@ El objetivo principal fue practicar lógica de juegos 2D en tiempo real, sistema
 
 ---
 
-## 🧱 Estructura del proyecto
-
-Flappy/
-├─ main.lua # Entrada principal del juego
-├─ states/ # Estados del juego
-│ ├─ (states .lua files) # Ej: TitleScreenState, PlayState, ScoreState
-├─ Bird.lua # Lógica de la entidad jugador
-├─ Pipe.lua # Obstáculos independientes
-├─ PipePair.lua # Pares de tubos generados
-├─ StateMachine.lua # Máquina de estados para control de pantallas
-├─ class.lua # Biblioteca pequeña de clases
-├─ push.lua # Librería para resolución virtual
-├─ graphics/.png # Sprites y assets visuales
-├─ sounds/.wav/.mp3 # Sonidos y música
-├─ fonts/*.ttf # Tipografías utilizadas
-└─ (otros archivos multimedia)
 
 yaml
 Copy code
